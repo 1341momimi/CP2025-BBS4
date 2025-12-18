@@ -514,3 +514,10 @@ textarea.form-control {
     font-size: 20px;
     position: absolute; top:200px; left:2%; width: 43%; height: 60px;
 }
+
+#btnB{
+    background-color: #180614; /*烏羽色*/
+    color: white;
+    font-size: 20px;
+    position: absolute; top: 200px; left: 50%; width: 60;; height: 60px;
+}
