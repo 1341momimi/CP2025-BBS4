@@ -512,6 +512,20 @@ window.addEventListener('unload', () => {
         postsListener = null;
     }
 });
+
+$(function(){
+    $('#btnW').click(function(e) {
+        btnWClick(e);
+    });
+
+    $('#btnB').click(function(e) {
+        btnBClick(e);
+    });
+});
+function ini(){
+    $('#btnW').prop('disabled', false);
+    $('#btnB').prop('disabled', false);
+}
     </script>
 </head>
 <body>
