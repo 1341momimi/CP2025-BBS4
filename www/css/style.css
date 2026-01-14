@@ -521,3 +521,15 @@ textarea.form-control {
     font-size: 15px;
     position: absolute; top: 80px; left: 55%; width: 40%;; height: 25px;
 }
+
+
+body.light-mode {
+    background-color: #ffffff; /* 白背景 */
+    color: #000000; /* 黒文字 */
+}
+
+
+body.dark-mode {
+    background-color: #121212; /* 黒背景 */
+    color: #ffffff; /* 白文字 */
+}
