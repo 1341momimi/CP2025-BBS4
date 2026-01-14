@@ -513,6 +513,12 @@ window.addEventListener('unload', () => {
     }
 });
 
+//ライトモード
+function setLightMode(){
+    document.body.class.remove('dark-mode');
+    document.body.class.add('light-mode');
+}
+
 $(function(){
     $('#btnW').click(function(e) {
         btnWClick(e);
