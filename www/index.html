@@ -525,6 +525,13 @@ function setDarkMode(){
     document.body.classList.add('dark-mode);
 }
 
+//ライト・ダークモードのイベント
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('btnW').addEventListener('click', setLightMode);
+    document.getElementById('btnB').addEventListener('click', setDarkMode);
+});
+
 $(function(){
     $('#btnW').click(function(e) {
         btnWClick(e);
